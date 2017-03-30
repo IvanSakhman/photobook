@@ -1,0 +1,59 @@
+.footer
+  display block
+  width 100%
+  background-color #ffd200
+  &__wrapper
+    width 1080px
+    margin 0 auto
+    padding-top 80px
+  &__container
+    display flex
+  &__menu
+    width 155px
+    position relative
+    margin-right 80px
+    &:after
+      content ""
+      position absolute
+      background-color #000
+      height 2px
+      width 155px
+      top -30px
+  &__elem
+    margin-bottom 18px
+  &__link
+    font-size 18px
+    font-weight 400
+    color #000
+    text-decoration none
+    padding 5px
+    cursor pointer
+    &:hover
+      border-bottom 1px solid #000
+  &__info
+    position relative
+    width 155px
+    &:after
+      content ""
+      position absolute
+      background-color #000
+      height 2px
+      width 155px
+      top -30px
+      left 0
+  &__social
+    display flex
+    justify-content space-around
+    width 100%
+  &__icon
+    display block
+  &__author
+    width 90px
+    margin 50px auto 0
+    display block
+  &__copyrights
+    text-align center
+    margin-top 40px
+    padding-bottom 60px
+    font-size 14px
+    font-weight 400

@@ -1,0 +1,88 @@
+.testimonial
+	display block
+	width 100%
+	height 770px
+	background url("../../img/testimonial.png") no-repeat
+	background-size cover
+	&__wrapper
+		padding-top 40px
+		width 1080px
+		margin 0 auto
+	&__title
+		font-size 60px
+		font-weight 100
+		font-variant small-caps
+	&__container
+		margin-top 60px
+		width 550px
+	&__pic
+		border-radius 50%
+		overflow hidden
+		width 160px
+		height 160px
+		float left
+	&__info
+		float left
+		margin 50px 0 0 30px
+	&__name
+		font-size 30px
+		font-weight 300
+		font-variant small-caps
+	&__position
+		font-size 18px
+		font-weight 300
+		margin-top 10px
+	&__desc
+		clear both
+		padding-top 25px
+		font-size 18px
+		font-weight 300
+		line-height 25px
+	&__nav
+		margin-top 35px
+		&:after
+			content ""
+			clear both
+			display table
+	&__prev, &__next, &__make
+		font-size 16px
+		font-weight 100
+		background-color transparent
+		-webkit-appearance none
+		-moz-appearance none
+		border none
+		position relative
+		padding 5px
+	&__prev
+		float left
+		margin-left 40px
+		&:after
+			position absolute
+			content ""
+			background url("../../img/arrow.svg")
+			width 26px
+			height 3px
+			transform rotateY(180deg)
+			top 12px
+			left -34px
+	&__next
+		float right
+		margin-right 40px
+		&:after
+			position absolute
+			content ""
+			background url("../../img/arrow.svg")
+			width 26px
+			height 3px
+			top 12px
+			right -34px
+	&__make
+		clear both
+		font-size 19px
+		font-weight 100
+		text-transform uppercase
+		padding 24px 36px
+		border 1px solid #010101
+		border-radius 10px
+		display block
+		margin 40px auto 0

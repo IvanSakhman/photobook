@@ -1,0 +1,22 @@
+mixin testimonial()
+	section.testimonial&attributes(attributes)
+		.testimonial__wrapper
+			h1.testimonial__title Testimonials
+			.testimonial__container
+				.testimonial__pic
+					img.testimonial__avatar(src="img/avatar.png" alt="avatar")
+				.testimonial__info
+					p.testimonial__name John Doe
+					p.testimonial__position Wedding photographer
+				p.testimonial__desc.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				p.testimonial__desc.
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+					nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+					officia deserunt mollit anim id est laborum.
+				p.testimonial__nav
+					button.testimonial__prev Previous testimonial
+					button.testimonial__next Next testimonial
+				button.testimonial__make make your photobook
